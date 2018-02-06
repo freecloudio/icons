@@ -1,0 +1,10 @@
+//tslint:disable
+export const Icons =  {
+  {{ range . }}
+  "{{ .Name }}": '{{ .Value }}',
+  {{ end }}
+}
+
+export default function plugin(UIkit: any): void {
+    UIkit.icon.add(Icons);
+}

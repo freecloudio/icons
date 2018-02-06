@@ -11,7 +11,7 @@
 
 ## You get
 
-- An `icons.ts` file, which is automatically generated from the `icons.txt` list.
+- An `icons.js` file, which is automatically generated from the `icons.txt` list.
 - Joy 🎉
 
 ## What you need to do

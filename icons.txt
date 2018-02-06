@@ -1,2 +1,9 @@
+account
+arrow-left
 cloud
 cloud-outline
+delete
+download
+file
+folder
+plus

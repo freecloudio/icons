@@ -1,10 +1,21 @@
-//tslint:disable
-export const Icons =  {
+/* eslint-disable */
+module.exports = function () {
+var Icons = {
   {{ range . }}
   "{{ .Name }}": '{{ .Value }}',
   {{ end }}
 }
 
-export default function plugin(UIkit: any): void {
-    UIkit.icon.add(Icons);
+function plugin(UIkit) {
+  if (plugin.installed) {
+      return;
+  }
+  UIkit.icon.add(Icons);
 }
+
+if (typeof window !== 'undefined' && window.UIkit) {
+  window.UIkit.use(plugin);
+}
+
+return plugin;
+}();

@@ -7,5 +7,11 @@ download
 email
 file
 folder
+folder-download
+folder-move
+link
 lock
 plus
+rename-box
+share
+star

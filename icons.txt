@@ -8,7 +8,6 @@ download
 email
 file
 folder
-<<<<<<< HEAD
 folder-move
 lock
 plus
@@ -16,13 +15,3 @@ rename-box
 share-variant
 star
 star-outline
-=======
-folder-download
-folder-move
-link
-lock
-plus
-rename-box
-share
-star
->>>>>>> 25ff63ebb39de5466a3f39bc8d19574ced840b4d

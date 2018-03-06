@@ -1,5 +1,6 @@
 account
 arrow-left
+close
 cloud
 cloud-outline
 delete
@@ -7,5 +8,10 @@ download
 email
 file
 folder
+folder-move
 lock
 plus
+rename-box
+share-variant
+star
+star-outline

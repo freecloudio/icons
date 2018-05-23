@@ -59,8 +59,8 @@ func readIconNames(path string) []string {
 }
 
 func applyIconsToTemplate(icons []Icon) {
-	tmpl := template.Must(template.ParseFiles("./template.tmpl"))
-	f, err := os.Create("icons.js")
+	tmpl := template.Must(template.ParseFiles("./template.ts"))
+	f, err := os.Create("icons.ts")
 	if err != nil {
 		log.Fatalf("Could not open output file: %v\n", err)
 		return

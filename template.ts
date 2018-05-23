@@ -1,5 +1,5 @@
 /* eslint-disable */
-// tslint-disable
+// tslint:disable
 const Icons = {
   {{ range . }}
   "{{ .Name }}": '{{ .Value }}',

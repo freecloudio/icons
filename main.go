@@ -24,6 +24,10 @@ func main() {
 	iconNames := readIconNames("./icons.txt")
 	for _, v := range iconNames {
 
+		if v == "" {
+			continue
+		}
+
 		iconContent, err := ioutil.ReadFile(filepath.Join("MaterialDesign", "icons", "svg", v+".svg"))
 		if err != nil {
 			log.Fatalf("Could not read icon %s: %v\n", v, err)

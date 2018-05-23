@@ -12,6 +12,7 @@ folder-move
 lock
 plus
 rename-box
+settings
 share-variant
 star
 star-outline

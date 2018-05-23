@@ -1,5 +1,7 @@
 account
 arrow-left
+chevron-down
+chevron-right
 close
 cloud
 cloud-outline
@@ -10,6 +12,8 @@ file
 folder
 folder-move
 lock
+magnify
+menu-down
 plus
 rename-box
 settings
